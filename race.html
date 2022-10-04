@@ -13,17 +13,17 @@
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="Last" />
         <p>Select a race:</p>
-        <input type="radio" id="5k" name="race"/>
-        <label for="sel1">Fun Run 5k</label><br />
+        <input type="radio" id="fivek" name="race"/>
+        <label for="fivek">Fun Run 5k</label><br />
         <input type="radio" id="half" name="race"/>
-        <label for="sel2">Half Marathon</label><br />
+        <label for="half">Half Marathon</label><br />
         <input type="radio" id="full" name="race"/>
-        <label for="sel3">Full Marathon</label><br />
+        <label for="full">Full Marathon</label><br />
         <br />
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" />
+        <input type="email" id="email" name="email" required/>
         <label for="password">Password</label>
-        <input type="password" id="password" name="pass" /><br />
+        <input type="password" id="password" name="pass" min="7"/><br />
         <label for="drop">Select Age Group</label>
         <select name="group">
             <option value="opt1">under 18</option>
