@@ -1,11 +1,69 @@
 ﻿h1 {
-    color: darkblue
+    color: darkblue;
+    text-align: center;
+    font-size:69px;
+    text-decoration: red underline double;
+}
+a {
+    text-decoration:none;
 }
 h2
 {
-    color: red
+    color: red;
+    text-align:center;
 }
 
-html {
-    background-color: lemonchiffon
+body {
+    background-color: lemonchiffon;
+}
+input {
+    
+    
+    color: red;
+}
+input {
+    background-color: rgb(219,191,253);
+}
+textarea {
+    background-color: rgb(219,191,253);
+}
+textarea {
+    color: red;
+}
+select {
+    background-color: rgb(219,191,253);
+}
+button {
+    background-color: rgb(173,245,223);
+}
+caption {
+    color: red;
+}
+h3 {
+    color: orange;
+}
+h4 {
+    color: green;
+}
+h5 {
+    color: blue;
+} 
+h6 {
+    color: rebeccapurple;
+}
+p {
+    line-height: 2.0;
+    text-align-last:center;
+}
+footer {
+    text-align:center;
+}
+nav {
+    text-align: center;
+}
+table {
+    text-align: center;
+}
+form {
+    text-align: center;
 }
