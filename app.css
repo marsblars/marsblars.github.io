@@ -1,0 +1,30 @@
+h1, h2 {
+    color: #006d77;
+}
+body {
+    background-color: #edf6f9;
+}
+button {
+    background-color: #83c5be;
+}
+#up {
+    font-weight:700;
+    border: 3px solid darkred;
+}
+#down {
+    border: 3px solid darkslateblue;
+    font-weight: 700;
+    
+}
+a {
+    text-decoration:none;
+}
+span {
+    color: #4a4e69;
+}
+.tag {
+    background-color: #005f73;
+    color: plum;
+    font-size: 18px;
+    opacity: 65%;
+}
