@@ -10,16 +10,17 @@ button {
 #up {
     font-weight:700;
     border: 3px solid darkred;
+    opacity:80%;
 }
 #down {
     border: 3px solid darkslateblue;
     font-weight: 700;
-    
+    opacity: 80%;
 }
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
-span {
+h2 span {
     color: #4a4e69;
 }
 .tag {
@@ -27,4 +28,45 @@ span {
     color: plum;
     font-size: 18px;
     opacity: 65%;
+}
+.post{
+    color:blueviolet;
+}
+footer a{
+    color:darkorchid;
+}
+input + button {
+    background-color:cornflowerblue;
+}
+footer > a {
+    color:darkmagenta;
+}
+input[type="email"] {
+    background-color:lightpink;
+}
+a:hover {
+    text-decoration:underline;
+}
+#up:hover {
+    background-color: darkcyan;
+    color: azure;
+}
+#down:hover {
+    background-color: darkcyan;
+    color:azure;
+}
+a:active {
+    color:darkred;
+}
+.post:nth-of-type(2n) {
+    background-color:azure;
+}
+
+h2::first-letter {
+    color: darkslateblue;
+    
+}
+::selection {
+    color: darkslateblue;
+    background-color: yellow;
 }
