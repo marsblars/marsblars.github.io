@@ -47,6 +47,7 @@ h4 {
 }
 h5 {
     color: blue;
+    
 } 
 h6 {
     color: rebeccapurple;
@@ -66,4 +67,24 @@ table {
 }
 form {
     text-align: center;
+}
+#sec {
+    font-size: 20px;
+}
+#b {
+    font-size: 1em;
+    padding: 0 1em;
+    background-color: #eee4e1;
+    border-radius: .5em;
+    
+}
+#rems ul {
+    font-size: 1rem;
+    
+}
+#op {
+    opacity: .4;
+}
+#o {
+    opacity: .4;
 }
