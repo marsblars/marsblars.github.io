@@ -50,4 +50,8 @@ body {
 #fixed #h2 {
    color: #5e548e;
 }
-
+nav > ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}

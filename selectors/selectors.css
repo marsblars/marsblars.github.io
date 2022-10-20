@@ -70,3 +70,8 @@ h2::first-letter {
     color: darkslateblue;
     background-color: yellow;
 }
+nav > ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}

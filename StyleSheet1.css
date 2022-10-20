@@ -59,9 +59,6 @@ p {
 footer {
     text-align:center;
 }
-nav {
-    text-align: center;
-}
 table {
     text-align: center;
 }
@@ -87,4 +84,12 @@ form {
 }
 #o {
     opacity: .4;
+}
+nav > ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+hr {
+    border: 1px dotted red;
 }
