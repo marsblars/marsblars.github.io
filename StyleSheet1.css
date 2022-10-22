@@ -89,7 +89,30 @@ nav > ul {
     list-style-type: none;
     padding-left: 0;
     text-align: center;
+    display: inline-block;
+    padding: 0 1em;
 }
 hr {
     border: 1px dotted red;
+}
+#chkn {
+    width: 38em;
+    height: 50em;
+}
+#head {
+    width: 38em;
+    height: 38em;
+}
+#finger {
+    width: 13em;
+    height: 15em;
+}
+p {
+    margin-left: 15em;
+    margin-right: 15em;
+}
+#one {
+    
+    margin-left: calc(50%/1.4) ;
+    
 }

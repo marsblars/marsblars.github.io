@@ -34,7 +34,8 @@ body {
     
 }
 #abs {
-    margin-left: 10%;
+    margin-left: 5%;
+    
 }
 #fixed #mid {
     position: fixed;
@@ -54,4 +55,10 @@ nav > ul {
     list-style-type: none;
     padding-left: 0;
     text-align: center;
+}
+#relative {
+    color: #e63946;
+}
+#static {
+    color: #457b9d;
 }
