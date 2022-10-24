@@ -99,10 +99,7 @@ hr {
     width: 38em;
     height: 50em;
 }
-#head {
-    width: 38em;
-    height: 38em;
-}
+
 #finger {
     width: 13em;
     height: 15em;
@@ -111,8 +108,67 @@ p {
     margin-left: 15em;
     margin-right: 15em;
 }
-#one {
-    
-    margin-left: calc(50%/1.4) ;
-    
+
+.head, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1080px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #one {
+        margin-bottom: 0;
+    }
+    #two {
+        margin: 0;
+    }
+    #three {
+        margin: 0;
+    }
+    #four {
+        margin: 0;
+    }
+    #five {
+        margin-top: 0;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 500px;
+
+    }
+
+    #oneb {
+        
+        margin: 0;
+    }
+    #twob {
+        
+        margin: 0;
+    }
+    #threeb {
+        margin: 0;
+    }
+    #fourb {
+        margin: 0;
+    }
+    #fiveb {
+        order: 5;
+        margin-top: 0;
+    }
+
+}
+.chkn {
+    display: flex;
+    justify-content: center;
+   
 }
