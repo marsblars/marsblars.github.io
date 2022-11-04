@@ -137,6 +137,11 @@ p {
         margin: 0;
     }
     #five {
+        margin: 0;
+    }
+    
+    #six {
+        order: 5;
         margin-top: 0;
     }
 
@@ -162,6 +167,10 @@ p {
         margin: 0;
     }
     #fiveb {
+        margin: 0;
+    }
+    
+    #sixb {
         order: 5;
         margin-top: 0;
     }
